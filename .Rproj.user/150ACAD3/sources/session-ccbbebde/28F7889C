@@ -1,12 +1,12 @@
 {
-    "id": "FF05A9EF",
-    "path": "C:/Users/phayala/OneDrive - UNC-Wilmington/my research/01_quarto_blog_research_website/marine_security/posts/COVID-19 and maritime piracy/index.qmd",
-    "project_path": "posts/COVID-19 and maritime piracy/index.qmd",
+    "id": "28F7889C",
+    "path": "C:/Users/phayala/OneDrive - UNC-Wilmington/my research/01_quarto_blog_research_website/marine_security/posts/Gulf of Guinea/index.qmd",
+    "project_path": "posts/Gulf of Guinea/index.qmd",
     "type": "quarto_markdown",
-    "hash": "225376940",
+    "hash": "2754466705",
     "contents": "",
     "dirty": false,
-    "created": 1677864159429.0,
+    "created": 1677866668453.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "125:0",
-        "cursorPosition": "11,66",
-        "scrollLine": "8"
+        "cursorPosition": "5,3",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "143:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1677866381,
+    "lastKnownWriteTime": 1677866822,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1677866381422,
+    "last_content_update": 1677866822672,
     "read_only": false,
     "read_only_alternatives": []
 }
