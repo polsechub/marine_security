@@ -2,9 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/COVID-19 and maritime piracy/index.html",
-      "/posts/Gulf of Guinea/index.html",
       "/posts/post-with-code/index.html",
+      "/posts/Gulf of Guinea/index.html",
+      "/posts/COVID-19 and maritime piracy/index.html",
       "/posts/welcome/index.html"
     ]
   }
