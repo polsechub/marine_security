@@ -1,14 +1,14 @@
 {
-    "id": "D7648037",
-    "path": "C:/Users/phayala/OneDrive - UNC-Wilmington/my research/01_quarto_blog_research_website/marine_security/index.qmd",
-    "project_path": "index.qmd",
+    "id": "FF05A9EF",
+    "path": "C:/Users/phayala/OneDrive - UNC-Wilmington/my research/01_quarto_blog_research_website/marine_security/posts/COVID-19 and maritime piracy/index.qmd",
+    "project_path": "posts/COVID-19 and maritime piracy/index.qmd",
     "type": "quarto_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1677863675412.0,
+    "created": 1677864159429.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 3,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "136:0",
         "cursorPosition": "0,0",
-        "scrollLine": "0",
-        "rmdVisualModeLocation": "197:0"
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1677863693,
+    "lastKnownWriteTime": 1677864168,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1677863693797,
+    "last_content_update": 1677864168170,
     "read_only": false,
     "read_only_alternatives": []
 }
