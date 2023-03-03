@@ -14,3 +14,5 @@
 [1,"GET: /testing.html\n"]
 [1,"GET: /about.html\n"]
 [1,"GET: /about.html\n"]
+[1,"ERROR: PermissionDenied: Access is denied. (os error 5), stat 'C:\\Users\\phayala\\OneDrive - UNC-Wilmington\\my research\\01_quarto_blog_research_website\\marine_security\\posts\\Gulf of Guinea\\index.qmd'\n"]
+[1,"ERROR: SyntaxError: Expected double-quoted property name in JSON at position 393\nGET: /about.html\n"]
