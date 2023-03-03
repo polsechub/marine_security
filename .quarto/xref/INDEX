@@ -1,0 +1,17 @@
+{
+  "about.qmd": {
+    "about.html": "bb15256b"
+  },
+  "index.qmd": {
+    "index.html": "18990caf"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "4901bef9"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "a5c4830d"
+  },
+  "posts/COVID-19 and maritime piracy/index.qmd": {
+    "index.html": "c22c0061"
+  }
+}
