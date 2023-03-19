@@ -52,7 +52,7 @@ ft_stats <- desc_stats2 %>%
   flextable() %>% 
   labelizor(part = "header", labels = c("SD" = "Std. Dev.")) %>%
   colformat_double(j = c(3, 5), digits = 4) %>%
-  colformat_double(j = 6, digits = 2) %>%
+  colformat_double(j = c(4, 6, 7), digits = 2) %>%
   colformat_double(i = 5, digits = 2) %>%
   bg(bg = "deepskyblue", part = "header") %>% 
   bg(i = c(2, 4, 6, 8), bg = "gray88") %>%
