@@ -1,5 +1,5 @@
 ---
-title: "Marine Security"
+title: "Blog posts"
 listing:
   contents: posts
   sort: "date desc"
