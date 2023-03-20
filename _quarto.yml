@@ -3,9 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Marine Security"
+  title: " "
   navbar:
     right:
+      - index.qmd
       - testing.qmd
       - about.qmd
       - icon: github
