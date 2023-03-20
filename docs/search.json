@@ -1,28 +1,17 @@
 [
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "About this blog"
   },
   {
-    "objectID": "posts/Gulf of Guinea/index.html",
-    "href": "posts/Gulf of Guinea/index.html",
-    "title": "Gulf of Guinea",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "marine_security",
     "section": "",
-<<<<<<< HEAD
     "text": "testing\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2023\n\n\nJeremy Dean\n\n\n\n\n\n\n  \n\n\n\n\nCOVID-19 and Maritime Piracy\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 3, 2023\n\n\nJeremy Dean\n\n\n\n\n\n\n  \n\n\n\n\nGulf of Guinea\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 3, 2023\n\n\nJeremy Dean\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 3, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nFeb 28, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-=======
-    "text": "This is new blog.\nasdaSDasd\nMy new text"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
->>>>>>> 2ac2baee0ca3ae9f9babbcfea930b1113d82abf7
   },
   {
     "objectID": "posts/COVID-19 and maritime piracy/index.html",
@@ -32,22 +21,17 @@
     "text": "It is now three years since COVID-19 began its surge across the globe. Many nations are still grappling with the economic, social, and political fallout from the pandemic and the emergency public health measures implemented in response. A recently published study by Aaron Gold, Anup Phayal, and Brandon Prins indicates that these effects also extend to an increased risk of maritime piracy. This study examines piracy data for Nigeria and Indonesia, two of the world’s most prominent piracy enclaves, using an interrupted time series analysis to compare trends in activity before and after the most stringent pandemic restrictions were put in place. Although the evidence is less definitive in the Indonesia case, the results for both countries show a reversal from declining trends in pre-restriction monthly piracy incidents to increasing trends afterward.\nThis study fits into a growing body of research demonstrating empirical support for an economic explanation of piracy. It suggests that individuals will turn to illicit activities as an alternative source of income in regions where legitimate economic opportunities are inadequate to sustain livelihoods and meet financial needs. For coastal and fishing communities, such individuals are more likely to be drawn to perpetrating piracy and armed robberies on ships since they already possess the local knowledge and navigational skills that make them likely to succeed.  This trend is particularly common among weak coastal states, which frequently fail to sufficiently provide for the economic needs of broad swaths of the population (particularly the poor and politically unconnected) and where the capacity to police the waters is limited.\n The research by Gold, Phayal, and Prins emphasizes that the economic hardships from COVID-19 restrictions have prompted an increase in piracy incidents, similar to the surges seen in the aftermath of economic shocks in the past. Understanding such connections between economic grievances and piracy is crucial to formulating effective counter-piracy strategies. It suggests that policies should not solely rely on increased maritime patrolling and enforcement mechanisms, but must also address the underlying causes through improved governance and long-term investments in the economic vitality of coastal communities and fisheries. Additionally, it adds to policymakers’ understanding of the ancillary costs of pandemic mitigation measures to help inform responses to future public health crises."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "marine_security",
+    "objectID": "posts/Gulf of Guinea/index.html",
+    "href": "posts/Gulf of Guinea/index.html",
+    "title": "Gulf of Guinea",
     "section": "",
-<<<<<<< HEAD
-    "text": "This is new blog."
-=======
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 3, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nGulf of Guinea\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 3, 2023\n\n\nJeremy Dean\n\n\n\n\n\n\n  \n\n\n\n\nCOVID-19 and Maritime Piracy\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 3, 2023\n\n\nJeremy Dean\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nFeb 28, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
->>>>>>> 2ac2baee0ca3ae9f9babbcfea930b1113d82abf7
+    "text": "This is new blog.\nMy new text"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-<<<<<<< HEAD
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
@@ -55,7 +39,7 @@
     "href": "posts/tttt/index.html",
     "title": "testing",
     "section": "",
-    "text": "This is new blog."
+    "text": "This is new blog.\n\n1+1\n\n[1] 2"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -69,8 +53,6 @@
     "href": "testing.html",
     "title": "CV",
     "section": "",
-=======
->>>>>>> 2ac2baee0ca3ae9f9babbcfea930b1113d82abf7
     "text": "About this blog"
   }
 ]

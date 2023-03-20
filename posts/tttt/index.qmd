@@ -7,4 +7,10 @@ categories: [news, code, analysis]
 
 This is new ***blog.***
 
+```{r}
+1+1
+
+
+```
+
 ![](figures/Picture2.png){style="height: 85%;" fig-align="center"}

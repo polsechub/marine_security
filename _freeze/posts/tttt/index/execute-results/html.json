@@ -1,0 +1,14 @@
+{
+  "hash": "b75d68e5d22556b490f7d21681df6cda",
+  "result": {
+    "markdown": "---\ntitle: \"testing\"\nauthor: \"Jeremy Dean\"\ndate: \"2023-04-03\"\ncategories: [news, code, analysis]\n---\n\n\nThis is new ***blog.***\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1+1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n![](figures/Picture2.png){style=\"height: 85%;\" fig-align=\"center\"}\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
