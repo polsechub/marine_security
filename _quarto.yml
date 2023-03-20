@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: " "
+  title: "Marine Security"
   navbar:
     right:
       - index.qmd
