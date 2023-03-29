@@ -54,6 +54,7 @@ ft_stats <- desc_stats2 %>%
   colformat_double(j = c(3, 5), digits = 4) %>%
   colformat_double(j = c(4, 6, 7), digits = 2) %>%
   colformat_double(i = 5, j = 3:7, digits = 2) %>%
+  bg(bg = "white", part = "all") %>%
   bg(bg = "deepskyblue", part = "header") %>% 
   bg(i = c(2, 4, 6, 8), bg = "gray88") %>%
   autofit()
@@ -101,6 +102,7 @@ ft_results <- mod1_results %>%
   hline(i = 1, j = 1, part = "header", border = fp_border_default(width = 0)) %>% 
   hline(i = 1, j = 2, part = "header") %>%
   hline(i= 8, border = fp_border_default(width = 2)) %>%
+  bg(bg = "white", part = "all") %>%
   bg(bg = "deepskyblue", part = "header") %>% 
   bg(i = c(2, 4, 6, 8, 10), bg = "gray88") %>%
   set_table_properties(width = .69, layout = "autofit") %>% 

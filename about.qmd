@@ -15,4 +15,4 @@ about:
       href: https://github.com
 ---
 
-About this blog
+Marine Security is dedicated to providing objective, nonpartisan research and analysis of maritime security issues, with an emphasis on piracy.

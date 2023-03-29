@@ -20,7 +20,9 @@ website:
   google-analytics: "G-15VG8V8132"
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: superhero
     css: styles.css
 
 editor: visual
