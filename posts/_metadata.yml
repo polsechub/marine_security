@@ -6,3 +6,13 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+# Add footer with Twitter share button
+format:
+  html:
+    include-after-body: ../footer.html
+
+# Add comments section
+comments:
+  utterances:
+    repo: polsechub/marine_security_comments

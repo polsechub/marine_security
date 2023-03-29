@@ -4,15 +4,20 @@ project:
 
 website:
   title: "Marine Security"
+  site-url: https://polsechub.github.io/marine_security
   navbar:
     right:
-      - index.qmd
-      - testing.qmd
       - about.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
+      - icon: rss
+        href: index.xml
+  cookie-consent:
+    type: implied
+    style: headline
+  google-analytics: "G-15VG8V8132"
 format:
   html:
     theme: cosmo

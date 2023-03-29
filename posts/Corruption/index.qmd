@@ -2,13 +2,10 @@
 title: "Enabling Pirates: Why Corruption Matters"
 author: "Jeremy Dean"
 date: "2023-03-18"
-categories: [news, code, analysis]
+categories: [news, analysis]
 execute:
   echo: false
 fig-cap-location: top
-comments: 
-  utterances: 
-    repo:  polsechub/marine_security_comments
 ---
 
 ```{r}
@@ -43,7 +40,7 @@ In sum, both mechanisms indicate that higher levels of corruption should be expe
 
 To test this predicted relationship, we will compare total piracy event counts from the [Maritime Piracy Event and Location Data Project](https://brandonprins.weebly.com/mpeld.html) (MPELD) compiled by Brandon Prins with corruption measurements from the World Bank's [Worldwide Governance Indicators](https://datacatalog.worldbank.org/search/dataset/0038026/Worldwide-Governance-Indicators) data by country for the years 1996 - 2016. More specifically, we are using the Control of Corruption Estimates indicator, which assigns a score for each country ranging from approximately -2 (for highest corruption) to 2.5 (for lowest corruption). @fig-plot below shows a simple scatterplot of the data, broadly indicating that most piracy does indeed occur in countries with heightened levels of corruption.
 
-![Piracy Incidents by Corruption Level](figures/corr_plot_1.png){#fig-plot}
+![Piracy Incidents by Corruption Level](figures/blog_plot2.png){#fig-plot}
 
 To assess the actual significance of this relationship, we will construct a predictive model using a Generalized Estimating Equation, which accounts for correlations in the data within countries across the time series. To ensure the validity of the results, the model will control for a number of potentially relevant factors identified in previous research, including a measure of state weakness (the State Fragility Index from the [Center for Systemic Peace](https://www.systemicpeace.org/index.html)), regime type (Polity5 data, also from the Center for Systemic Peace), military expenditures as a measure of security capabilities (from the [Correlates of War Project](https://correlatesofwar.org)), GDP per capita (purchasing power parity), coastline length, and population. Additionally, to ease the interpretation of the results, the Corruption Estimates indicator is adjusted from its initial high to low corruption format to a more intuitive low to high scale. Altogether, the model examines a total of 1,848 state-year observations from 110 countries. The results are presented in the two tables below.
 
