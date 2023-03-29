@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Marine Security"
+  google-analytics: "G-44VMWXWKWE"
   navbar:
     right:
       - index.qmd
