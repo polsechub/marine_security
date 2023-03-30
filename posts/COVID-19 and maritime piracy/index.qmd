@@ -2,7 +2,7 @@
 title: "COVID-19 and Maritime Piracy"
 author: "Jeremy Dean"
 date: "2023-03-03"
-categories: [news, code, analysis]
+categories: [Analysis]
 ---
 
 It is now three years since COVID-19 began its surge across the globe. Many nations are still grappling with the economic, social, and political fallout from the pandemic and the emergency public health measures implemented in response. A [recently published study](https://doi.org/10.1177/0022002712453709) by Aaron Gold, Anup Phayal, and Brandon Prins indicates that these effects also extend to an increased risk of maritime piracy. This study examines piracy data for Nigeria and Indonesia, two of the world's most prominent piracy enclaves, using an interrupted time series analysis to compare trends in activity before and after the most stringent pandemic restrictions were put in place. Although the evidence is less definitive in the Indonesia case, the results for both countries show a reversal from declining trends in pre-restriction monthly piracy incidents to increasing trends afterward.

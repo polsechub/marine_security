@@ -5,7 +5,7 @@ author:
   - name: "Anup Phayal"
   - name: "Aaron Gold"
 date: "2021-03-1"
-categories: [analysis]
+categories: [Analysis]
 ---
 
 2020 was a bad year for maritime piracy. The global number of sea-piracy incidents rose by over 20% from 2019 and West Africa experienced the highest number of attacks and attempted attacks since data collection began in the early 1990s at the [International Maritime Bureau's Piracy Reporting Center](https://www.icc-ccs.org/piracy-reporting-centre) (see Figure 1). But the Gulf of Guinea was not the only piracy hotspot in 2020. In fact, attacks increased in Southeast Asia and the Americas, as [land-based crime](https://www.thejakartapost.com/news/2020/06/04/crime-in-indonesia-surges-in-late-may-police.html) appeared to spill over into the ports and anchorages of Dumai, Taboneo, Callao, and Macapa.  Kidnappings jumped sharply in 2020 and the illegal boarding of steaming ships reached its highest level in five years. Some recent [headlines](https://theconversation.com/attacks-at-sea-arent-all-linked-to-piracy-why-its-important-to-unpick-whats-what-153591) appear to minimize the threat of sea-piracy and fail to appreciate the harmful economic effects of the COVID-19 pandemic. Yet, previous financial crises have been followed by significant surges in maritime crime. The novel Coronavirus will likely produce similar conditions that have fueled ship targeting in the past.
