@@ -1,6 +1,9 @@
+
+
 ---
 title: "About"
-image: profile.jpg
+# image: profile.jpg
+engine: knitr
 about:
   template: jolla
   links:
@@ -10,9 +13,30 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
+    # - icon: github
+    #   text: Github
+    #   href: https://github.com
 ---
 
-Welcome!
+Marine Security is a collection of blogposts dedicated to providing objective synopsis of maritime security issues, based on interesting and policy-relevant academic research, but tailored for general audiences. Comments are welcome!
+
+</br>
+</br>
+
+### For Contributors
+
+This platform is also open to anyone who wishes to showcase their research work in the area of maritime security. The post should be written for general audience, in a clear and concise way, and not exceeding 1000 words. Please email your submission to any of the following organizers.
+
+
+
+::: {style="text-align: left"}
+Anup Phayal <a href="mailto:phayala@uncw.edu">(phayala\@uncw.edu)</a>\
+Associate Professor,\
+Public and International Affairs,\
+University of North Carolina, Wilmington
+
+Jeremy Dean <a href="mailto:jrdean18@gmail">(jrdean18\@gmail)</a>\
+Graduate Student,\
+Conflict Management & Resolution,\
+University of North Carolina, Wilmington
+:::
