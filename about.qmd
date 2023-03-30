@@ -16,6 +16,7 @@ about:
     #   href: https://github.com
 ---
 
+<<<<<<< HEAD
 Marine Security is a collection of blogposts dedicated to providing objective synopsis of maritime security issues, based on interesting and policy-relevant academic research, but tailored for general audiences. Comments are welcome!
 
 </br>
@@ -36,3 +37,6 @@ Graduate Student,\
 Conflict Management & Resolution,\
 University of North Carolina, Wilmington
 :::
+=======
+Welcome!
+>>>>>>> main

@@ -4,7 +4,11 @@ project:
 
 website:
   title: "Marine Security"
+<<<<<<< HEAD
   site-url: https://polsechub.github.io/marine_security
+=======
+  google-analytics: "G-44VMWXWKWE"
+>>>>>>> main
   navbar:
     right:
       - about.qmd
