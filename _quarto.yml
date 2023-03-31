@@ -5,10 +5,12 @@ project:
 website:
   title: "Marine Security"
   google-analytics: "G-44VMWXWKWE" 
+  site-url: https://polsechub.github.io/marine_security
   #google-analytics: "G-15VG8V8132"
   navbar:
     right:
       - about.qmd
+      - index.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
@@ -21,8 +23,8 @@ website:
 format:
   html:
     theme: 
-      light: cosmo
-      dark: superhero
+      light: [cosmo, custom.scss]
+      dark: [superhero, custom.scss]
     css: styles.css
 
 editor: visual
