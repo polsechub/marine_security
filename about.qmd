@@ -16,15 +16,20 @@ about:
     #   href: https://github.com
 ---
 
-Marine Security is a collection of blogposts dedicated to providing objective synopsis of maritime security issues, based on interesting and policy-relevant academic research, but tailored for general audiences. Comments are welcome!
+Marine Security is a collection of blogposts dedicated to providing objective synopsis of maritime security issues, based on interesting and policy-relevant academic research, but tailored for general audiences. 
 
-</br> </br>
+</br> 
 
 ### For Contributors
 
-This platform is also open to anyone who wishes to share their research in the area of maritime security. The post should be written for general audience, in a clear and concise way, and not exceeding 1000 words. Please email your submission at <a href="mailto:phayala@uncw.edu">phayala\@uncw.edu</a>\.
+This platform is also open to anyone who wishes to share their research in the area of maritime security. The post should be written for general audience, in a clear and concise way, and not exceeding 1000 words. Please email your submission at <a href="mailto:marsecblog@gmail.com">marsecblog\@gmail.com</a>\.
 
-::: {style="text-align: left"}
+
+</br>
+
+::: {.notes style="text-align: left"}
+::: {style="font-size:14px"}
+
 Anup Phayal \
 Associate Professor,\
 Public and International Affairs,\
@@ -34,4 +39,7 @@ Jeremy Dean \
 Graduate Student,\
 Conflict Management & Resolution,\
 University of North Carolina, Wilmington
+
+:::
+
 :::
