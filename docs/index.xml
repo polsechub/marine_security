@@ -10,7 +10,100 @@
 <atom:link href="https://polsechub.github.io/marine_security/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.335</generator>
-<lastBuildDate>Sat, 18 Mar 2023 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 19 Apr 2023 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Role of Corruption in Illegal Fishing</title>
+  <dc:creator>Jeremy Dean</dc:creator>
+  <link>https://polsechub.github.io/marine_security/posts/Corruption and IUU/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<style type="text/css">
+.caption {
+text-align: right;
+line-height: 1;
+font-size: 0.75em;
+}
+</style>
+</div>
+<div id="fig-map" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: 2019 IUU Fishing by EEZ</figcaption><p></p>
+<p><img src="https://polsechub.github.io/marine_security/posts/Corruption and IUU/figures/iuu_map.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<div class="caption">
+<p><em><strong>Disclaimer:</strong> Maritime boundaries depicted are for research purposes<br>
+only and are not to be considered legally authoritative<br>
+delimitations of international boundaries and claims</em></p>
+<p><strong>Sources:</strong> Fish catch data sourced from the <a href="http://www.seaaroundus.org">Sea Around Us</a> project.<br>
+EEZ spatial data sourced from <a href="https://www.vliz.be/en">Flanders Marine Institute</a>.</p>
+</div>
+<p>At a January maritime security forum, Rear Admiral Jo-Ann Burdian made headlines for asserting that <a href="https://www.sportfishingmag.com/news/illegal-fishing-worse-than-piracy/">illegal fishing had surpassed piracy</a> as a top concern of the U.S. Coast Guard. As the head of strategic response doctrine and policy guidance for the Coast Guard, Burdian noted that illegal, unreported, and unregulated (IUU) fishing threatens the food security of many coastal nations and has already led to <a href="https://www.newsweek.com/china-seeks-maritime-dominance-gunboat-filled-fishing-fleets-1673672">clashes at sea</a> between international fishing fleets. While the total volume of IUU fishing has declined somewhat in recent years as international bodies have focused greater attention on the issue (see Figure&nbsp;2 below), it continues to be a significant problem, with the <a href="http://www.seaaroundus.org">Sea Around Us</a> project estimating more than 24 million tons of global IUU fish catch in 2019, the most recent year for which such estimates are available. Aggregate totals such as these also obscure the fact that while some regions have dramatically reduced IUU fishing, in other countries like Guinea-Bissau and Sierra Leone it has more than doubled over the past decade. The map above displays IUU catch as a percentage of total fish catch by exclusive economic zone (EEZ) for the year 2019.</p>
+<p>The desire to find effective solutions to the problem of IUU fishing has naturally prompted growing interest in understanding the underlying factors that drive the activity. As a distinctly economic form of crime, existing research has understandably focused on the economic factors and regulatory regimes that shape the profitability and risks associated with IUU fishing. To date, however, research efforts have largely overlooked corruption as a possible factor. As a result, the potential role of corruption in illegal fishing remains an open question, which we will begin to explore here.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-global-chart" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: Total Global Fish Catch</figcaption><p></p>
+<p><img src="https://polsechub.github.io/marine_security/posts/Corruption and IUU/index_files/figure-html/fig-global-chart-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Key Drivers of IUU Fishing</strong></p>
+<p>Existing research on the drivers of IUU fishing largely follows the conceptual framework of a foundational <a href="https://www.oecd.org/greengrowth/fisheries/whyfishpiracypersiststheeconomicsofillegalunreportedandunregulatedfishing.htm">2005 OECD study</a> in drawing potential causal factors from two broad categories: economic and institutional (see for example, <a href="https://doi.org/10.1016/j.biocon.2014.09.005">Petrossian</a>, <a href="https://iopscience.iop.org/article/10.1088/1755-1315/1081/1/012013">Leonardo and Deeb</a>, and <a href="https://doi.org/10.1016/j.marpol.2005.09.008">Le Gallic and Cox</a>). Economic factors influence the expected benefits of engaging in IUU fishing and include elements such as excess fishing sector capacity, fishing subsidies, fish prices, the presence of lucrative fish species, and general economic conditions and prospects for legitimate alternative opportunities. Institutional factors, on the other hand, largely shape the perceived risks and costs that offset the economic gains that can be attained through IUU fishing. Key institutional factors include gaps in international legal frameworks, the nature and severity of penalties, and the capacity and effectiveness of states’ Monitoring, Control, and Surveillance (MCS) programs. Together, these various factors determine the overall profitability of IUU fishing (the financial gain minus costs and risks) and the prevalence of the activity can be thought of as directly related to its attractiveness in comparison to alternative economic opportunities.</p>
+<p>For obvious reasons, research on institutional factors has placed a pronounced emphasis on MCS as a direct determinant of the likelihood of detection and punishment of illegal fishers. The approach to such research, however, has almost exclusively focused on measures of capacity, such as numbers of patrol boats or military expenditures. While these resources are an important component in MCS, they alone do not adequately speak to the effectiveness of MCS efforts. The ultimate impact of MCS also depends on the extent to which resources are being actively devoted to combatting IUU in comparison to other security priorities, as well as the actual rigor of enforcement of fishing rules when violations are observed. It is with respect to this enforcement aspect that corruption becomes particularly relevant.</p>
+<p>Corruption directly undermines the deterrence effects of enforcement by substantially reducing the risk and cost of punishment. <a href="https://www.jstor.org/stable/1830482">Criminological deterrence theory</a> holds that deterrence effects are directly linked to the certainty and severity of punishment. When a climate of corruption prevails, however, would-be lawbreakers recognize that even if caught, they can generally avoid punishment for the comparatively low cost of a bribe. This reduction in the risk of punishment effectively increases the perceived net profitability of criminal activity. As a result, we can expect to see higher rates of IUU fishing for countries in which corruption is more prevalent.</p>
+<p><strong>The Role of Corruption</strong></p>
+<p>To examine the real world effects of corruption on IUU fishing, we have constructed a Generalized Estimating Equation model for data from 116 coastal countries for the years 1995 to 2016, resulting in 2371 individual state-year observations. IUU catch data is sourced from the <a href="http://www.seaaroundus.org">Sea Around Us</a> project and is presented as a percentage of the country’s total fish catch to adjust for vast differences in fishery size and production and provide a basis for meaningful comparisons between countries. As a point of reference, the IUU percentage data has an average value of 37.03% across all state-years, with half of all values falling between 19.44% and 50.94%. Corruption is measured using the Political Corruption Index in the <a href="https://www.v-dem.net">Varieties of Democracy</a> dataset, which scores countries from 0 to 1 with higher scores indicating higher levels of corruption. The model also includes controls for state weakness and regime type (using the State Fragility Index and Polity5 data respectively from the <a href="https://www.systemicpeace.org/index.html">Center for Systemic Peace</a>), state security capacity (using military expenditures data from the <a href="https://correlatesofwar.org">Correlates of War Project</a>), coastline length as a proxy for scale of the sea zone to be monitored (taken from the <a href="https://www.cia.gov/the-world-factbook/">CIA World Fact Book</a>), and <a href="https://data.worldbank.org/">World Bank</a> GDP per capita (purchasing power parity) and population data.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-effects" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">Figure&nbsp;3: Effects of Corruption on Predicted IUU Rate</figcaption><p></p>
+<p><img src="https://polsechub.github.io/marine_security/posts/Corruption and IUU/index_files/figure-html/fig-effects-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The model results showed corruption to be statistically significant at the 99% confidence level, providing solid support for our hypothesis that corruption influences the rate of IUU fishing. Figure&nbsp;3 above displays the specific effects of corruption on the IUU fishing rate with all other variables held constant at their average values. It shows that over the range of corruption scores, the rate of illegal fishing steadily increases from a low of 32.97% to 41.70%, equivalent to a change of roughly 1% for every change of 0.1 in the corruption index.</p>
+<p>These effects are even more pronounced when we replace the Political Corruption Index score in the model with the more narrowly focused component indicator for bribery in the public sector (one of several components aggregated in the calculation of the composite index score). The statistical significance for the bribery indicator increases to the 99.9% confidence level and the effects on the IUU rate expand to a range of 30.30% to 42.69% (see Figure&nbsp;4 below). This further corroborates our theory of bribery of enforcement officials as the key mechanism linking corruption with IUU fishing.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-bribe" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">Figure&nbsp;4: Effects of Bribery on Predicted IUU Rate</figcaption><p></p>
+<p><img src="https://polsechub.github.io/marine_security/posts/Corruption and IUU/index_files/figure-html/fig-bribe-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The model also showed that state weakness (as measured by the State Fragility Index) had a substantial impact on IUU fishing, but that other direct measures of security capabilities such as military expenditures and the commonly used <a href="https://correlatesofwar.org/data-sets/national-material-capabilities/">Composite Index of National Capabilities</a> did <em>not</em> meaningfully influence IUU outcomes. Again, this casts doubt on the capabilities-centric approach to MCS evaluation that prevails in current IUU research. Also interesting, however, is the interplay between state weakness and corruption. Figure&nbsp;5 below plots the marginal effects of corruption relative to values in the State Fragility Index and demonstrates that the impact of corruption becomes larger as state weakness increases. This behavior was identical for model using the bribery indicator and is not being separately displayed.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-sfi" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p></p><figcaption class="figure-caption">Figure&nbsp;5: Marginal Effects of Corruption by State Weakness</figcaption><p></p>
+<p><img src="https://polsechub.github.io/marine_security/posts/Corruption and IUU/index_files/figure-html/fig-sfi-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Implications for Policy</strong></p>
+<p>Without a doubt, improvements in Monitoring, Control, and Surveillance mechanisms are crucial to combatting IUU fishing and effective fisheries management. However, these results suggest that strategies that solely focus on capabilities development are likely to have a limited effect. If left unaddressed, pervasive corruption can be expected to exert a powerful mitigating impact on any such efforts. This highlights the simple, but often neglected, truth that detection and enforcement are not one and the same. Effective MCS requires both the ability to identify and interdict illegal fishers and the professionalism to properly and consistently enforce the laws. Thus, capability-building must emphasize performance standards and anti-corruption measures wherever necessary.</p>
+
+
+
+ ]]></description>
+  <category>Analysis</category>
+  <guid>https://polsechub.github.io/marine_security/posts/Corruption and IUU/index.html</guid>
+  <pubDate>Wed, 19 Apr 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://polsechub.github.io/marine_security/posts/Corruption and IUU/figures/iuu_map.png" medium="image" type="image/png" height="92" width="144"/>
+</item>
 <item>
   <title>Enabling Pirates: Why Corruption Matters</title>
   <dc:creator>Jeremy Dean</dc:creator>

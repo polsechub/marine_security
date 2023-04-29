@@ -6,7 +6,6 @@ categories: [Analysis]
 execute:
   echo: false
 fig-cap-location: top
-draft: true
 ---
 
 ```{r}
