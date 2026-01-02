@@ -1,0 +1,26 @@
+---
+title: "Anomaly voyages"
+author: "Anup Phayal" 
+date: "2025-12-18"
+categories: [Analysis]
+execute:
+  echo: false
+fig-cap-location: top
+---
+
+
+**Anomaly Detection Practice (ML)**
+
+This post shows a practice output from a Python-based data analysis project. I worked with a fascinating dataset from **Global Fishing Watch**: a nearly 20-GB global log of vessel voyages derived from AIS signals. The data record the time and location of both the origin and destination of voyages worldwide, offering a rare window into global maritime movement at scale.
+
+Using Python, I focused on the 2018 and 2019 data, grouping voyages by region and isolating those that crossed regional boundaries. From there, I zoomed in on voyages that passed through the **Bab al-Mandab Strait**, between Yemen and Somalia. This narrow passage is one of the world’s most critical maritime chokepoints, with outsized importance for global trade and supply chains. Examining traffic through this corridor provides a useful way to study how maritime flows concentrate around—and depend on—strategic geographic bottlenecks.
+
+The following is a visualization for **anomaly detection**. It shows bar charts of monthly average voyage time for specific routes that have larger than 100 voyages each month, which pass through this region. I wanted to check if there were any unusual spikes in voyage duration. Note that for months when a route does not exceed the 100 number threshold voyages, they are depicted as blanks. There are some interesting patterns. For instance, For route North Africa to Red Sea region, we find that travel time (in hours) spike from October to April, and then decline. While this regional rounding is vague, since the timing differs significantly for specific ports, this monthly variation pattern is interesting to say the least.
+
+<iframe
+  src="figures/red_sea_route_duration_anomalies.html"
+  width="130%"
+  height="750"
+  style="border:none;"
+  loading="lazy">
+</iframe>
