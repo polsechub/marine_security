@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Blog Posts – Marine Security</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -40,14 +43,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2a267059a0196736760a65888f06507c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-2d7adc5d5f2cb5366cd8a5f6d011f303.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-2a267059a0196736760a65888f06507c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f4b80585a897bd42771535c82ee2a964.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-9728d176753e11fadd72fa3c420e9e64.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f4b80585a897bd42771535c82ee2a964.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -133,7 +136,7 @@ cookieconsent.run({
   
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -146,7 +149,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -397,7 +400,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QW5hbHlzaXM=">Analysis <span class="quarto-category-count">(5)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QW5hbHlzaXM=">Analysis <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -412,7 +415,35 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1766034000000" data-listing-file-modified-sort="1767312112663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1777521600000" data-listing-file-modified-sort="1777662060341" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1319">
+<div class="thumbnail"><a href="./posts/Iran crisis 2026/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/Iran crisis 2026/index_files/figure-html/fig-esclation-1.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Iran crisis 2026/index.html" class="no-external">The 2026 Iran Crisis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/Iran crisis 2026/index.html" class="no-external">Quantifying Asymmetric Escalation Post-Operation Epic Fury</a>
+</div>
+<div class="delink listing-description"><a href="./posts/Iran crisis 2026/index.html" class="no-external">
+The current crisis in Iran, initiated by Operation Epic Fury on February 28, 2026, marked a paradigm shift in Persian Gulf security. What began as a decapitation strike…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Iran crisis 2026/index.html" class="no-external">
+<div class="listing-date">
+Apr 30, 2026
+</div>
+<div class="listing-author">
+Anup Phayal
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1766034000000" data-listing-file-modified-sort="1767312112663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
 <div class="thumbnail"><a href="./posts/Voyage_anomaly/index.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -422,6 +453,9 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="./posts/Voyage_anomaly/index.html" class="no-external">Anomaly voyages</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./posts/Voyage_anomaly/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('QW5hbHlzaXM='); return false;">Analysis</div>
@@ -442,16 +476,19 @@ Anup Phayal
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1710734400000" data-listing-file-modified-sort="1767312678413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1804">
+<div class="quarto-post image-right" data-index="2" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1710734400000" data-listing-file-modified-sort="1767312678413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1804">
 <div class="thumbnail"><a href="./posts/Corruption/index.html" class="no-external">
 
-<p class="card-img-top"><img src="posts/Corruption/figures/blog_plot2.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="posts/Corruption/figures/blog_plot2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Corruption/index.html" class="no-external">Enabling Pirates: Why Corruption Matters</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./posts/Corruption/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('QW5hbHlzaXM='); return false;">Analysis</div>
@@ -472,16 +509,19 @@ Jeremy Dean &amp; Anup Phayal
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1677819600000" data-listing-file-modified-sort="1767311438621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
+<div class="quarto-post image-right" data-index="3" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1677819600000" data-listing-file-modified-sort="1767311438621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
 <div class="thumbnail"><a href="./posts/COVID-19 and maritime piracy/index.html" class="no-external">
 
-<p class="card-img-top"><img src="posts/COVID-19 and maritime piracy/figures/Picture1.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="posts/COVID-19 and maritime piracy/figures/Picture1.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/COVID-19 and maritime piracy/index.html" class="no-external">COVID-19 and Maritime Piracy</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./posts/COVID-19 and maritime piracy/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('QW5hbHlzaXM='); return false;">Analysis</div>
@@ -502,16 +542,19 @@ Jeremy Dean
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1627790400000" data-listing-file-modified-sort="1681055174000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="972">
+<div class="quarto-post image-right" data-index="4" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1627790400000" data-listing-file-modified-sort="1681055174000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="972">
 <div class="thumbnail"><a href="./posts/Hot pursuit and piracy/index.html" class="no-external">
 
-<p class="card-img-top"><img src="posts/Hot pursuit and piracy/figures/Picture1.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="posts/Hot pursuit and piracy/figures/Picture1.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Hot pursuit and piracy/index.html" class="no-external">Fights over marine boundaries are creating safe zones for pirates</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./posts/Hot pursuit and piracy/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('QW5hbHlzaXM='); return false;">Analysis</div>
@@ -532,16 +575,19 @@ Brandon Prins, Anup Phayal, Aaron Gold
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1614574800000" data-listing-file-modified-sort="1680283391000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1704">
+<div class="quarto-post image-right" data-index="5" data-categories="QW5hbHlzaXM=" data-listing-date-sort="1614574800000" data-listing-file-modified-sort="1680283391000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1704">
 <div class="thumbnail"><a href="./posts/Maritime Piracy in 2020-2021/index.html" class="no-external">
 
-<p class="card-img-top"><img src="posts/Maritime Piracy in 2020-2021/figures/figure1.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img loading='lazy' src="posts/Maritime Piracy in 2020-2021/figures/figure1.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/Maritime Piracy in 2020-2021/index.html" class="no-external">Maritime Piracy in 2020-2021</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./posts/Maritime Piracy in 2020-2021/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('QW5hbHlzaXM='); return false;">Analysis</div>
@@ -629,13 +675,14 @@ Brandon Prins, Anup Phayal, Aaron Gold
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
